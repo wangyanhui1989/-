@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>		
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/map.css"/>
+<link rel="stylesheet" type="text/css" href="css/cases.css"/>
+</head>
+<body>
+<div class="fixed-header">
+	<div class="header-flex">
+		<img id="logo" src="img/img1/logo.png"/>
+		<div class="nav" id="menu">
+			<div data-menuanchor = "page1" class="nav-item active"><a href="#page1">首页</a></div>
+			<div data-menuanchor = "page2" class="nav-item"><a href="#page2">产品介绍</a></div>
+			<div data-menuanchor = "page3" class="nav-item"><a href="#page3">案例中心</a></div>
+			<div data-menuanchor = "page4" class="nav-item"><a href="#page4">关于我们</a></div>
+			<div data-menuanchor = "page5" class="nav-item"><a href="#page5">招商加盟</a></div>
+			<div class="login"><a href="#">登录/注册</a></div>
+		</div>
+	</div>
+</div>
+<div id="fullpage">
+	<div class="section section1">
+		<div class="part1">
+			<div class="title1">西瓜科技小程序平台</div>
+			<div class="line1"></div>
+			<p class="p1">我们提供技术服务,来满足您的战略需求<br/>助您抢占移动互联新机遇</p>
+			<div class="btn1" onclick="go1()">平台功能特性和发展方向 <i class="go1"></i></div>
+		</div>		
+		<div class="part2 box-1200">
+			<div class="title2">平台功能特性和发展方向</div>
+			<ul>				
+				<li>						
+					<img src="img/img1/icon-1.png"/>
+					<div class="tit">方便易维护</div>
+					<div class="line"></div>
+					<p>一键上线小程序<br/>平台级底层代码维护</p>					
+					<div class="dote-line"></div>					
+				</li>
+				<li>					
+					<img src="img/img1/icon-2.png"/>
+					<div class="tit">多方案加速互联网化</div>
+					<div class="line"></div>					
+					<p>多行业落地方案<br/>加速企业互联网化</p>
+					<div class="dote-line"></div>
+				</li>
+				<li>					
+					<img src="img/img1/icon-3.png"/>
+					<div class="tit">客户广迭代快</div>
+					<div class="line"></div>
+					<p>客户遍布全国<br/>产品迭代速度超你想象</p>
+					<div class="dote-line"></div>
+				</li>
+				<li>					
+					<img src="img/img1/icon-4.png"/>
+					<div class="tit">加盟共享互联网</div>
+					<div class="line"></div>
+					<p>诚邀加盟代理<br/>一同分享移动互联网时代</p>
+					<div class="dote-line"></div>
+				</li>
+				<div class="clear"></div>
+			</ul>
+			<!--<div data-menuanchor = "page1">
+				<a href="#page1"><div class="btn btn2" onclick="back1()"><i class="back1"></i>返回</div></a>
+			</div>-->
+			<div class="btn btn2" onclick="back1()"><i class="back1"></i>返回</div>
+			
+		</div>
+	</div>
+	<div class="section section2">
+		<div class="part3">
+			<div class="title1">
+				<div class="zh">产品介绍</div>
+				<div class="eng">THE PRODUCT INNTRODUCTION</div>
+			</div>
+			<p class="p1">小程序是微信团队在2017年1月9日上线的产品,它可以抛开操作系统的限制,做到了在一个小程序是微信团队在2017年1月9日上线的产品,
+				<br/>它可以抛开操作系统的限制,它可以抛开认同佛挡杀佛操作系统的限制,做到了在一个
+			</p>
+			<ul class="col-4">
+				<li>
+					<img src="img/imgs/img-o2o.png"/>
+					<div class="mask"></div>
+						<div class="detail">
+							<div class="title">O2O商城</div>
+							<p class="content">线上运营、线下消费,手机<br/>直接管理订单</p>
+						</div>
+					
+					<div class="middle-text">O2O商城</div>				
+				</li>
+				<li>
+					<img src="img/imgs/img-hotel.png"/>
+					<div class="mask">
+						<div class="detail">
+							<div class="title">酒店订房</div>
+							<p class="content">线上运营、线下消费,手机<br/>直接管理订单</p>
+						</div>
+					</div>
+					<div class="middle-text">酒店订房</div>
+				</li>
+				<li>
+					<img src="img/imgs/img-book.png"/>
+					<div class="mask">
+						<div class="detail">
+							<div class="title">预约服务</div>
+							<p class="content">线上运营、线下消费,手机<br/>直接管理订单</p>
+						</div>
+					</div>
+					<div class="middle-text">预约服务</div>
+				</li>
+				<li>
+					<img src="img/imgs/img-sale.png"/>
+					<div class="mask">
+						<div class="detail">
+							<div class="title">商品分销</div>
+							<p class="content">线上运营、线下消费,手机<br/>直接管理订单</p>
+						</div>
+					</div>
+					<div class="middle-text">商品分销</div>
+				</li>
+				<li>
+					<img src="img/imgs/img-form.png"/>
+					<div class="mask">
+						<div class="detail">
+							<div class="title">表单预定</div>
+							<p class="content">线上运营、线下消费,手机<br/>直接管理订单</p>
+						</div>
+					</div>
+					<div class="middle-text">表单预定</div>
+				</li>
+				<li>
+					<img src="img/imgs/img-vote.png"/>
+					<div class="mask">
+						<div class="detail">
+							<div class="title">投票服务</div>
+							<p class="content">线上运营、线下消费,手机<br/>直接管理订单</p>
+						</div>
+					</div>
+					<div class="middle-text">投票服务</div>
+				</li>
+				<li>
+					<img src="img/imgs/img-sale.png"/>
+					<div class="mask">
+						<div class="detail">
+							<div class="title">营销工具</div>
+							<p class="content">线上运营、线下消费,手机<br/>直接管理订单</p>
+						</div>
+					</div>
+					<div class="middle-text">营销工具</div>
+				</li>
+				<li>
+					<img src="img/imgs/img-more.png"/>
+					<div class="more">更多功能敬请期待!</div>
+				</li>
+				<div class="clear"></div>
+			</ul>
+			<div class="btn btn1 btn3" onclick="go2()">小程序优势<i class="go1"></i></div>
+		</div>	
+		<div class="part4">
+			<div class="title1">
+				<div class="zh">小程序优势</div>
+				<div class="eng">THE SMALL PROGRAM ADVANTAGE</div>
+			</div>
+			<p class="p1">小程序主打线下推广,这对线下门店来说是绝佳的好机会,通过小程序快速搭建应用,超出web应用的体验,通过结合微信公众号的内容营销<br/>
+				加上小程序的成交转化,可以抛开操作系统的限制,它可以抛开认同佛做到了在一个
+			</p>			
+			<div class="box">
+			<ul class="lists">
+				<li>
+					<div class="hover-bg"></div>
+					<div class="inner">
+						<i class="icon icon1"></i>
+						<div class="tit">把握市场风口</div>
+						<p class="p-texts">目前上线的小程序应用在600个左右,和微信公众平台一样,越早进入就越火爆,越先享受新的理念带来的好处,而这一块现在几乎没有人竞争</p>
+					</div>
+				</li>
+				<li>
+					<div class="hover-bg"></div>
+					<div class="inner">
+						<i class="icon icon2"></i>
+						<div class="tit">更多流量入口</div>
+						<p class="p-texts">从微信小程序的开放，第一批上线的小程序应用在300个左右，而微信用户却有9亿，就算只有10%或20的用户事先体验小程序</p>
+					</div>
+				</li>
+				<li>
+					<div class="hover-bg"></div>
+					<div class="inner">
+						<i class="icon icon3"></i>
+						<div class="tit">超轻推广模式</div>
+						<p class="p-texts">微信小程序的轻量级和体验感，极大降低推广成本，和微信群的关联和分享更是推广的极速入口</p>
+					</div>
+				</li>
+				<li>
+					<div class="hover-bg"></div>
+					<div class="inner">
+						<i class="icon icon4"></i>
+						<div class="tit">流畅用户体验</div>
+						<p class="p-texts">拥有一个小程序，完全相当于同时拥有了IOS和Android两大APP平台，使用效果可以媲美原生APP，飞起来的感觉</p>
+					</div>
+				</li>
+				<li>
+					<div class="hover-bg"></div>
+					<div class="inner">
+						<i class="icon icon5"></i>
+						<div class="tit">更少维护成本</div>
+						<p class="p-texts">对于中小型企业，开发一套APP系统，需要付出大量时间和财力，而小程序借助微信平台，让你在拥有一个媲美原生APP的程序</p>
+					</div>
+				</li>
+				<li>
+					<div class="hover-bg"></div>
+					<div class="inner">
+						<i class="icon icon6"></i>
+						<div class="tit">适用更多场景</div>
+						<p class="p-texts">适用于多种行业开发应用，适用于公众平台、微信群、朋友圈等，入口广泛，满足您的各种使用场景</p>
+					</div>
+				</li>
+				<div class="clear"></div>
+			</ul>
+			</div>
+			<div class="btn btn2" onclick="back2()"><i class="back1"></i>产品介绍</div>
+		</div>	
+	</div>
+	<div class="section section3">		
+		<div class="scrollBox">	
+			<div class="case-title">
+				<div class="case-zh">案例中心</div>
+				<div class="case-eng">THE CASE CENTER</div>
+			</div>
+			<ul class="tabs1">
+			    <li class="on">全部</li>
+				<li>商城</li>
+				<li>酒店</li>
+				<li>预约服务</li>
+				<li>投票</li>
+				<li>商品分销</li>
+			</ul>
+			<div class="ohbox" style="margin-top: 40px;">
+			    <div class="tempWrap" style="overflow:hidden;position:relative;width:1200px;">
+			      	<ul class="piclist" style="width: 2484px; position: relative; overflow-x: hidden; padding: 0px; margin: 0px; left: 0px;">
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				       	<li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				       <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+				        <li>
+				        	<img src="img/imgs/img.png"/>
+				        	<div class="hover-mask">
+								<img class="qr" src="img/img1/qr.png"/>
+							</div>
+				        </li>
+			      	</ul>
+			    </div>
+			</div>
+		  <div class="pageBtn"><span class="prev"></span><span class="next"></span></div>   
+		</div>	
+	</div>
+	<div class="section section4">
+		<div class="about">
+			<div class="title1">
+				<div class="zh">关于我们</div>
+				<div class="eng">ABOUT US</div>
+			</div>			
+			<div class="about-bg">					
+				<div class="left">
+					<img class="img-top" src="img/imgs/about2.png"/>
+					<img class="img-bottom" src="img/imgs/about1.png"/>
+				</div>
+				<div class="right">
+					<p>郑州西瓜科技jqFloat.js是一个jQuery插件，能够让网页里面的任意元素浮动，并且可以实现动画效果，支持鼠标响应事件，并且它是跨浏览器兼容的，使用简单方便，它有助于创建简单的浮动动画，让您的网页看起来更加活泼。
+					jqFloat.js是一个jQuery插件，能够让网页里面的任意元素浮动，并且可以实现动画效果，支持鼠标响应事件，让您的网页看起来更加活泼。jqFloat.js是一个jQuery插件，能够让网页里面的任意元素浮动，并且可以实现动画效果，
+					</p>
+					<p>郑州西瓜科技jqFloat.js是一个jQuery插件，能够让网页里面的任意元素浮动，并且可以实现动画效果，支持鼠标响应事件，并且它是跨浏览器兼容的，使用简单方便，它有助于创建简单的浮动动画，让您的网页看起来更加活泼。
+					jqFloat.js是一个jQuery插件，能够让网页里面的任意元素浮动，并且可以实现</p>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="section section5">
+		<div class="slide">
+		<img src="img/img1/map1.png" class="top-image"/>
+		<div class="map-service">
+			<div class="map-service-right">
+				<div class="china-map">			
+					<div class="region-list active postition-2 online-node">
+						<div class="area-box">
+							<span class="dot"></span>							
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span>
+						</div>									
+						<div class="show-regin"><span>成都</span></div>
+						<div class="tip-bg">3个加盟商</div>
+					</div>			
+									
+					<div class="region-list waite postition-5 waite-node">
+						<div class="area-box">
+							<span class="dot"></span>
+							<span class="pulse delay-01"></span>
+							<span class="pulse delay-02"></span>
+						</div>				
+						<div class="show-regin"><span>武汉</span></div>
+						<div class="tip-bg">6个加盟商</div>
+					</div>
+					 <div class="region-list  active  postition-1 online-node">
+						<div class="area-box">
+							<span class="dot"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span>
+						</div>					
+						<div class="show-regin"><span>郑州</span></div>
+						<div class="tip-bg">8个加盟商</div>
+					</div>
+					<div class="region-list active postition-13 online-node">
+						<div class="area-box">
+							<span class="dot"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span>
+						</div>				
+						<div class="show-regin"><span>呼和浩特</span></div>
+						<div class="tip-bg">2个加盟商</div>
+					</div>
+					<div class="region-list  active  postition-11 online-node">
+						<div class="area-box">
+							<span class="dot"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span>
+						</div>	
+						<div class="show-regin"><span>济南</span></div>
+						<div class="tip-bg">5个加盟商</div>
+					</div>
+					<div class="region-list active postition-7 online-node">
+						<div class="area-box">
+							<span class="dot"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span>
+						</div>
+						<div class="show-regin"><span>沈阳</span></div>
+						<div class="tip-bg">6个加盟商</div>
+					</div>
+					<div class="region-list active postition-8 online-node">
+						<div class="area-box">
+							<span class="dot"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span>
+						</div>				
+						<div class="show-regin"><span>北京</span></div>
+						<div class="tip-bg">10个加盟商</div>
+					</div>
+					<div class="region-list active postition-9 online-node">
+						<div class="area-box">
+							<span class="dot"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span>
+						</div>					
+						<div class="show-regin"><span>苏州</span></div>
+						<div class="tip-bg">6个加盟商</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="box-1200">
+		<div class="texts">
+			<div class="title">全国代理商分布图</div>
+			<p><i class="circle circle1"></i> <span>已有加盟商</span></p>
+			<p><i class="circle circle2"></i> <span>将开放加盟区域</span></p>
+		</div>
+		</div>
+		<img src="img/img1/map2.png" class="bottom-image"/>
+	</div>
+	<div class="slide slide2">
+		<img id="hands" src="img/img1/join-hands.png"/>
+		<div class="l-text">加盟代理</div>
+		<p class="s-text">行业先锋大洗牌,抢占移动互联新机遇,全国代理商会热招募中!</p>
+		<div class="btn-join">立即加入</div>		
+		<div data-menuanchor = "page1">
+			<a href="#page1">
+				<img class="mouse-img" src="img/img1/mouse-toindex.png"/>
+			</a>
+		</div>
+	</div>
+	</div>
+</div>
+</body>
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/move.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.fullPage.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.SuperSlide.js" type="text/javascript" charset="utf-8"></script>
+<script>
+$(".scrollBox").slide({ 
+	titCell:".tabs1 li", mainCell:".piclist", effect:"left",vis:4,scroll:4,delayTime:800,trigger:"click",easing:"easeOutCirc"
+}); 
+$(document).ready(function(){
+	$('#fullpage').fullpage({		
+		anchors:["page1","page2","page3","page4","page5"],  
+		menu:"#menu",
+		verticalCentered:false,
+		afterLoad: function(anchorLink, index){
+			var loadedSection = $(this);
+			if(index==1){
+//				move('.part1 .title1').set('margin-top','12%').set('opacity','1').end(function(){
+//					move('.part1 .line1').set('margin-top','3%').set('opacity','1').end(function(){
+//						move('.part1 .p1').set('margin-top','3%').set('opacity','1').end(function(){
+//							move('.part1 .btn1').set('margin-top','7%').set('opacity','1').end();
+//						})
+//					})
+//				})	
+//				
+//				move('.part1 .title1').set('margin-top','12%').set('opacity','1').duration('.6s').delay('.3s').end();
+//				move('.part1 .line1').set('margin-top','3%').set('opacity','1').duration('.6s').delay('.4s').end();
+//				move('.part1 .p1').set('margin-top','3%').set('opacity','1').duration('.6s').delay('.5s').end(function(){
+//					move('.part1 .btn1').set('margin-top','7%').set('opacity','1').end();
+//				});
+
+				$('.part1 .title1').addClass('div1');
+				$('.part1 .line1').addClass('div2');
+				$('.part1 .p1').addClass('div3');
+				$('.part1 .btn1').addClass('div4');
+				
+			}
+
+			if(index == 2){				
+				move('.part3 .title1').set('margin-top','12%').set('opacity','1').end(function(){
+					move('.part3 .p1').set('margin-top','3%').set('opacity','1').end(function(){
+						move('.part3 .col-4 li:nth-of-type(1)').set('margin-top','0.5%').set('opacity','1').end();
+						move('.part3 .col-4 li:nth-of-type(2)').set('margin-top','0.5%').set('opacity','1').end();
+						move('.part3 .col-4 li:nth-of-type(3)').set('margin-top','0.5%').set('opacity','1').end();
+						move('.part3 .col-4 li:nth-of-type(4)').set('margin-top','0.5%').set('opacity','1').end();
+						move('.part3 .col-4 li:nth-of-type(5)').set('margin-top','0.5%').set('opacity','1').end();
+						move('.part3 .col-4 li:nth-of-type(6)').set('margin-top','0.5%').set('opacity','1').end();
+						move('.part3 .col-4 li:nth-of-type(7)').set('margin-top','0.5%').set('opacity','1').end();
+						move('.part3 .col-4 li:nth-of-type(8)').set('margin-top','0.5%').set('opacity','1').end();
+						move('.part3 .btn3').set('margin-top','5%').set('opacity','1').end();
+					});
+				});
+								
+			}
+			if(index == 3){
+//				move('.case-title').scale(1).set('opacity','1').end(function(){
+//					move('.tabs1').scale(1).set('opacity','1').end(function(){
+//						move('.piclist ').scale(1).set('opacity','1').duration('1s').end();
+//					})					
+//				});
+				move('.case-title').scale(1).set('opacity','1').duration('.6s').end();
+				move('.tabs1').scale(1).set('opacity','1').duration('.6s').delay('.3s').end();
+				move('.piclist ').scale(1).set('opacity','1').duration('1s').delay('.6s').end();
+				move('.scrollBox .pageBtn .prev ').set('opacity','1').scale(1).delay('1.4s').end();
+				move('.scrollBox .pageBtn .next ').set('opacity','1').scale(1).delay('1.4s').end();
+			}
+			if(index == 4){			
+				move('.section4 .title1').set('margin-top','9%').set('opacity','1').duration('.8s').end();
+				move('.section4 .about-bg').set('margin-top','8%').set('opacity','1').duration('.8s').delay('.4s').end();
+				move('.section4 .img-top').set('margin-top','-10%').set('opacity','1').duration('.8s').delay('1s').end(function(){
+					move('.section4 .img-bottom').set('margin-top','6%').set('opacity','1').duration('.8s').end();
+					move('.section4 .right').set('margin-top','1%').set('opacity','1').duration('.8s').end();
+				})
+			}			
+			if(index==5){
+				move('.section5 .top-image').set('margin-left','0').end(function(){
+					move('.section5 .map-service-right').set('margin-top','2%').set('opacity','1').duration('.8s').end();
+					move('.section5 .texts').set('margin-top','-17%').set('opacity','1').duration('.8s').delay('.4s').end();
+					move('.section5 .bottom-image').set('margin-left','0').end();
+					move('.area-box .dot').set('opacity','1').end(function(){
+						move('.region-list.active .area-box .dot').set('background','#2196f3').end(function(){
+							move('.area-box .dot').set('opacity','1').end();
+						});
+					});
+				})
+			}
+			
+		},
+		onLeave: function(index, nextIndex, direction){
+			var leavingSection = $(this);
+			if(index==1){
+//				move('.part1 .title1').set('margin-top','22%').set('opacity','0').end(function(){
+//					move('.part1 .line1').set('margin-top','22%').set('opacity','0').end(function(){
+//						move('.part1 .p1').set('margin-top','22%').set('opacity','0').end(function(){
+//							move('.part1 .btn1').set('margin-top','22%').set('opacity','0').end();
+//						})
+//					})
+//				})			
+				$('.part1 .title1').removeClass('div1');
+				$('.part1 .line1').removeClass('div2');
+				$('.part1 .p1').removeClass('div3');
+				$('.part1 .btn1').removeClass('div4');
+			}
+			if(index == 2){
+				move('.part3 .title1').set('margin-top','22%').set('opacity','0').end(function(){
+					move('.part3 .p1').set('margin-top','22%').set('opacity','0').end(function(){
+						move('.part3 .col-4 li:nth-of-type(1)').set('margin-top','22%').set('opacity','0').end(function(){
+							move('.part3 .col-4 li:nth-of-type(2)').set('margin-top','22%').set('opacity','0').end(function(){
+								move('.part3 .col-4 li:nth-of-type(3)').set('margin-top','22%').set('opacity','0').end(function(){
+									move('.part3 .col-4 li:nth-of-type(4)').set('margin-top','22%').set('opacity','0').end(function(){
+										move('.part3 .col-4 li:nth-of-type(5)').set('margin-top','22%').set('opacity','0').end(function(){
+											move('.part3 .col-4 li:nth-of-type(6)').set('margin-top','22%').set('opacity','0').end(function(){
+												move('.part3 .col-4 li:nth-of-type(7)').set('margin-top','22%').set('opacity','0').end(function(){
+													move('.part3 .col-4 li:nth-of-type(8)').set('margin-top','22%').set('opacity','0').end();
+												})
+											})
+										})
+									})
+								})
+							})
+						});
+					});
+				});
+			}
+			
+			if(index == 3){	
+				move('.case-title').scale(0).set('opacity','0').end(function(){
+					move('.tabs1').scale(0).set('opacity','0').end(function(){
+						move('.piclist ').scale(0).set('opacity','0').duration('1s').end();
+						move('.scrollBox .pageBtn .prev ').set('opacity','0').end();
+						move('.scrollBox .pageBtn .next ').set('opacity','0').end();
+					})					
+				});
+			}
+			if(index == 4){
+				move('.section4 .title1').set('margin-top','13%').set('opacity','0').end(function(){
+					move('.section4 .about-bg').set('margin-top','22%').set('opacity','0').end(function(){
+						move('.section4 .img-top').set('margin-top','22%').set('opacity','0').end(function(){
+							move('.section4 .img-bottom').set('margin-top','22%').set('opacity','0').end();
+							move('.section4 .right').set('margin-top','40%').set('opacity','0').end();
+						})
+					});
+				});				
+			}			
+			if(index==5){
+				move('.section5 .top-image').set('margin-left','-4000px').end(function(){
+					move('.section5 .map-service-right').set('margin-top','22%').set('opacity','0').end(function(){
+						move('.section5 .texts').set('margin-top','22%').set('opacity','0').end(function(){
+							move('.section5 .bottom-image').set('margin-left','4000px').end();
+						})
+					});
+				});
+			}			
+			
+		},
+		afterRender:function(){
+					
+		}
+				
+	})
+			
+})
+
+
+function go1(){
+//	move('.part1').scale(0).end();
+//	move('.part2 .title2').set('margin-top','-40%').set('opacity','1').end(function(){
+//		move('.part2 li:nth-of-type(1)').set('margin-top','6%').set('opacity','1').end(function(){
+//			move('.part2 li:nth-of-type(2)').set('margin-top','6%').set('opacity','1').end(function(){
+//				move('.part2 li:nth-of-type(3)').set('margin-top','6%').set('opacity','1').end(function(){
+//					move('.part2 li:nth-of-type(4)').set('margin-top','6%').set('opacity','1').end(function(){
+//						move('.part2 .btn2').set('margin-top','6%').set('opacity','1').end();
+//					});
+//				});
+//			});
+//		});
+//	});
+	move('.part1').scale(0).set('opacity','0').end();
+	move('.part2').scale(1).set('opacity','1').end();
+	move('.part2 .title2').set('margin-top','-40%').set('opacity','1').duration('.6s').delay('.2s').end();
+	move('.part2 li:nth-of-type(1)').set('margin-top','6%').set('opacity','1').duration('.8s').delay('.4s').end();
+	move('.part2 li:nth-of-type(2)').set('margin-top','6%').set('opacity','1').duration('.8s').delay('.6s').end();
+	move('.part2 li:nth-of-type(3)').set('margin-top','6%').set('opacity','1').duration('.8s').delay('.8s').end();
+	move('.part2 li:nth-of-type(4)').set('margin-top','6%').set('opacity','1').duration('.8s').delay('1s').end();
+	move('.part2 .btn2').set('margin-top','6%').set('opacity','1').end();
+}
+function back1(){
+	move('.part2').scale(0).set('opacity','0').end();
+	move('.part1').scale(1).set('opacity','1').end();
+	move('.part1 .title1').set('margin-top','12%').set('opacity','1').end(function(){
+		move('.part1 .line1').set('margin-top','3%').set('opacity','1').end(function(){
+			move('.part1 .p1').set('margin-top','3%').set('opacity','1').end(function(){
+				move('.part1 .btn1').set('margin-top','7%').set('opacity','1').end();
+			})
+		})
+	})	
+//	$.fn.fullpage.moveTo('page1', 0);
+}
+function go2(){
+	move('.part3').set('display','none').end();
+	move('.part4').scale(1).set('opacity','1').end();
+//	move('.part4 .title1').set('margin-top','13%').set('opacity','1').end(function(){
+//		move('.part4 .p1').set('margin-top','3%').set('opacity','1').end(function(){
+//			move('.part4 li:nth-of-type(1)').set('margin-top','5%').set('opacity','1').end(function(){
+//				move('.part4 li:nth-of-type(2)').set('margin-top','5%').set('opacity','1').end(function(){
+//					move('.part4 li:nth-of-type(3)').set('margin-top','5%').set('opacity','1').end(function(){
+//						move('.part4 li:nth-of-type(4)').set('margin-top','5%').set('opacity','1').end(function(){
+//							move('.part4 li:nth-of-type(5)').set('margin-top','5%').set('opacity','1').end(function(){
+//								move('.part4 li:nth-of-type(6)').set('margin-top','5%').set('opacity','1').end(function(){
+//									move('.part4 .btn2').set('margin-top','7%').set('opacity','1').end();
+//								});
+//							})
+//						})
+//					})
+//				})
+//			})
+//		});
+//	})
+	move('.part4 .title1').set('margin-top','13%').set('opacity','1').duration('.6s').delay('.2s').end();
+	move('.part4 .p1').set('margin-top','3%').set('opacity','1').duration('.6s').delay('.4s').end();
+	move('.part4 li:nth-of-type(1)').set('margin-top','5%').set('opacity','1').duration('.8s').delay('.6s').end();
+	move('.part4 li:nth-of-type(2)').set('margin-top','5%').set('opacity','1').duration('.8s').delay('.8s').end();
+	move('.part4 li:nth-of-type(3)').set('margin-top','5%').set('opacity','1').duration('.8s').delay('1s').end();
+	move('.part4 li:nth-of-type(4)').set('margin-top','5%').set('opacity','1').duration('.8s').delay('1.2s').end();
+	move('.part4 li:nth-of-type(5)').set('margin-top','5%').set('opacity','1').duration('.8s').delay('1.4s').end();
+	move('.part4 li:nth-of-type(6)').set('margin-top','5%').set('opacity','1').duration('.8s').delay('1.6s').end();
+	move('.part4 .btn2').set('margin-top','7%').set('opacity','1').end();
+}
+
+function back2(){
+	move('.part4').scale(0).set('opacity','0').end();
+	move('.part3').set('display','block').end();
+	move('.part3 .title1').set('margin-top','12%').set('opacity','1').end(function(){
+		move('.part3 .p1').set('margin-top','3%').set('opacity','1').end(function(){
+			move('.part3 .col-4 li:nth-of-type(1)').set('margin-top','0.5%').set('opacity','1').end(function(){
+				move('.part3 .col-4 li:nth-of-type(2)').set('margin-top','0.5%').set('opacity','1').end(function(){
+					move('.part3 .col-4 li:nth-of-type(3)').set('margin-top','0.5%').set('opacity','1').end(function(){
+						move('.part3 .col-4 li:nth-of-type(4)').set('margin-top','0.5%').set('opacity','1').end(function(){
+							move('.part3 .col-4 li:nth-of-type(5)').set('margin-top','0.5%').set('opacity','1').end(function(){
+								move('.part3 .col-4 li:nth-of-type(6)').set('margin-top','0.5%').set('opacity','1').end(function(){
+									move('.part3 .col-4 li:nth-of-type(7)').set('margin-top','0.5%').set('opacity','1').end(function(){
+										move('.part3 .col-4 li:nth-of-type(8)').set('margin-top','0.5%').set('opacity','1').end(function(){
+											move('.part3 .btn1').set('margin-top','2%').set('opacity','1').end();
+										});
+									})
+								})
+							})
+						})
+					})
+				})
+			});
+		});
+	});
+}
+</script>
+</html>
